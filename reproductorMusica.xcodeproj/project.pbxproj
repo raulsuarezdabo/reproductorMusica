@@ -28,6 +28,7 @@
 		626E0DF41CB6D65200F184D1 /* dubstep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DEF1CB6D65200F184D1 /* dubstep.jpg */; };
 		626E0DF51CB6D65200F184D1 /* goinghigher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DF01CB6D65200F184D1 /* goinghigher.jpg */; };
 		626E0DF61CB6D65200F184D1 /* happyrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DF11CB6D65200F184D1 /* happyrock.jpg */; };
+		626E0DF81CB6DA5A00F184D1 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626E0DF71CB6DA5A00F184D1 /* Cover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		626E0DEF1CB6D65200F184D1 /* dubstep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dubstep.jpg; sourceTree = "<group>"; };
 		626E0DF01CB6D65200F184D1 /* goinghigher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goinghigher.jpg; sourceTree = "<group>"; };
 		626E0DF11CB6D65200F184D1 /* happyrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happyrock.jpg; sourceTree = "<group>"; };
+		626E0DF71CB6DA5A00F184D1 /* Cover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				626E0DC61CB6CA7400F184D1 /* Assets.xcassets */,
 				626E0DC81CB6CA7400F184D1 /* LaunchScreen.storyboard */,
 				626E0DCB1CB6CA7400F184D1 /* Info.plist */,
+				626E0DF71CB6DA5A00F184D1 /* Cover.swift */,
 			);
 			path = reproductorMusica;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				626E0DC21CB6CA7400F184D1 /* ViewController.swift in Sources */,
+				626E0DF81CB6DA5A00F184D1 /* Cover.swift in Sources */,
 				626E0DC01CB6CA7400F184D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
