@@ -18,6 +18,16 @@
 		626E0DDD1CB6D21E00F184D1 /* audio_min.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DDB1CB6D21E00F184D1 /* audio_min.png */; };
 		626E0DDF1CB6D30400F184D1 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DDE1CB6D30400F184D1 /* arrows.png */; };
 		626E0DE21CB6D43E00F184D1 /* iPodClick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE11CB6D43E00F184D1 /* iPodClick.aiff */; };
+		626E0DE81CB6D5B900F184D1 /* bensound-buddy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE31CB6D5B900F184D1 /* bensound-buddy.mp3 */; };
+		626E0DE91CB6D5B900F184D1 /* bensound-dubstep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE41CB6D5B900F184D1 /* bensound-dubstep.mp3 */; };
+		626E0DEA1CB6D5B900F184D1 /* bensound-happyrock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE51CB6D5B900F184D1 /* bensound-happyrock.mp3 */; };
+		626E0DEB1CB6D5B900F184D1 /* bensound-moose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE61CB6D5B900F184D1 /* bensound-moose.mp3 */; };
+		626E0DEC1CB6D5B900F184D1 /* bensound-rumble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE71CB6D5B900F184D1 /* bensound-rumble.mp3 */; };
+		626E0DF21CB6D65200F184D1 /* cute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DED1CB6D65200F184D1 /* cute.jpg */; };
+		626E0DF31CB6D65200F184D1 /* Dead_Combo_-_01_-_Povo_Que_Cas_Descalo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DEE1CB6D65200F184D1 /* Dead_Combo_-_01_-_Povo_Que_Cas_Descalo.mp3 */; };
+		626E0DF41CB6D65200F184D1 /* dubstep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DEF1CB6D65200F184D1 /* dubstep.jpg */; };
+		626E0DF51CB6D65200F184D1 /* goinghigher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DF01CB6D65200F184D1 /* goinghigher.jpg */; };
+		626E0DF61CB6D65200F184D1 /* happyrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DF11CB6D65200F184D1 /* happyrock.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +44,16 @@
 		626E0DDB1CB6D21E00F184D1 /* audio_min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_min.png; sourceTree = "<group>"; };
 		626E0DDE1CB6D30400F184D1 /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
 		626E0DE11CB6D43E00F184D1 /* iPodClick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = iPodClick.aiff; sourceTree = "<group>"; };
+		626E0DE31CB6D5B900F184D1 /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-buddy.mp3"; sourceTree = "<group>"; };
+		626E0DE41CB6D5B900F184D1 /* bensound-dubstep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-dubstep.mp3"; sourceTree = "<group>"; };
+		626E0DE51CB6D5B900F184D1 /* bensound-happyrock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-happyrock.mp3"; sourceTree = "<group>"; };
+		626E0DE61CB6D5B900F184D1 /* bensound-moose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-moose.mp3"; sourceTree = "<group>"; };
+		626E0DE71CB6D5B900F184D1 /* bensound-rumble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-rumble.mp3"; sourceTree = "<group>"; };
+		626E0DED1CB6D65200F184D1 /* cute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute.jpg; sourceTree = "<group>"; };
+		626E0DEE1CB6D65200F184D1 /* Dead_Combo_-_01_-_Povo_Que_Cas_Descalo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dead_Combo_-_01_-_Povo_Que_Cas_Descalo.mp3"; sourceTree = "<group>"; };
+		626E0DEF1CB6D65200F184D1 /* dubstep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dubstep.jpg; sourceTree = "<group>"; };
+		626E0DF01CB6D65200F184D1 /* goinghigher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goinghigher.jpg; sourceTree = "<group>"; };
+		626E0DF11CB6D65200F184D1 /* happyrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happyrock.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,11 @@
 		626E0DD11CB6CAE200F184D1 /* music */ = {
 			isa = PBXGroup;
 			children = (
+				626E0DE31CB6D5B900F184D1 /* bensound-buddy.mp3 */,
+				626E0DE41CB6D5B900F184D1 /* bensound-dubstep.mp3 */,
+				626E0DE51CB6D5B900F184D1 /* bensound-happyrock.mp3 */,
+				626E0DE61CB6D5B900F184D1 /* bensound-moose.mp3 */,
+				626E0DE71CB6D5B900F184D1 /* bensound-rumble.mp3 */,
 			);
 			name = music;
 			sourceTree = "<group>";
@@ -90,6 +115,11 @@
 		626E0DD21CB6CAF000F184D1 /* cover */ = {
 			isa = PBXGroup;
 			children = (
+				626E0DED1CB6D65200F184D1 /* cute.jpg */,
+				626E0DEE1CB6D65200F184D1 /* Dead_Combo_-_01_-_Povo_Que_Cas_Descalo.mp3 */,
+				626E0DEF1CB6D65200F184D1 /* dubstep.jpg */,
+				626E0DF01CB6D65200F184D1 /* goinghigher.jpg */,
+				626E0DF11CB6D65200F184D1 /* happyrock.jpg */,
 			);
 			name = cover;
 			sourceTree = "<group>";
@@ -172,15 +202,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626E0DE91CB6D5B900F184D1 /* bensound-dubstep.mp3 in Resources */,
+				626E0DF21CB6D65200F184D1 /* cute.jpg in Resources */,
 				626E0DE21CB6D43E00F184D1 /* iPodClick.aiff in Resources */,
 				626E0DCA1CB6CA7400F184D1 /* LaunchScreen.storyboard in Resources */,
 				626E0DD71CB6D15000F184D1 /* shapes.png in Resources */,
+				626E0DF51CB6D65200F184D1 /* goinghigher.jpg in Resources */,
+				626E0DF61CB6D65200F184D1 /* happyrock.jpg in Resources */,
 				626E0DDD1CB6D21E00F184D1 /* audio_min.png in Resources */,
 				626E0DDF1CB6D30400F184D1 /* arrows.png in Resources */,
+				626E0DE81CB6D5B900F184D1 /* bensound-buddy.mp3 in Resources */,
 				626E0DD91CB6D1E200F184D1 /* circle.png in Resources */,
+				626E0DEA1CB6D5B900F184D1 /* bensound-happyrock.mp3 in Resources */,
+				626E0DF31CB6D65200F184D1 /* Dead_Combo_-_01_-_Povo_Que_Cas_Descalo.mp3 in Resources */,
+				626E0DF41CB6D65200F184D1 /* dubstep.jpg in Resources */,
 				626E0DDC1CB6D21E00F184D1 /* audio_max.png in Resources */,
 				626E0DC71CB6CA7400F184D1 /* Assets.xcassets in Resources */,
+				626E0DEB1CB6D5B900F184D1 /* bensound-moose.mp3 in Resources */,
 				626E0DC51CB6CA7400F184D1 /* Main.storyboard in Resources */,
+				626E0DEC1CB6D5B900F184D1 /* bensound-rumble.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
