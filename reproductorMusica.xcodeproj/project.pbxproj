@@ -12,6 +12,12 @@
 		626E0DC51CB6CA7400F184D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DC31CB6CA7400F184D1 /* Main.storyboard */; };
 		626E0DC71CB6CA7400F184D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DC61CB6CA7400F184D1 /* Assets.xcassets */; };
 		626E0DCA1CB6CA7400F184D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DC81CB6CA7400F184D1 /* LaunchScreen.storyboard */; };
+		626E0DD71CB6D15000F184D1 /* shapes.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DD61CB6D15000F184D1 /* shapes.png */; };
+		626E0DD91CB6D1E200F184D1 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DD81CB6D1E200F184D1 /* circle.png */; };
+		626E0DDC1CB6D21E00F184D1 /* audio_max.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DDA1CB6D21E00F184D1 /* audio_max.png */; };
+		626E0DDD1CB6D21E00F184D1 /* audio_min.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DDB1CB6D21E00F184D1 /* audio_min.png */; };
+		626E0DDF1CB6D30400F184D1 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DDE1CB6D30400F184D1 /* arrows.png */; };
+		626E0DE21CB6D43E00F184D1 /* iPodClick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 626E0DE11CB6D43E00F184D1 /* iPodClick.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		626E0DC61CB6CA7400F184D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626E0DC91CB6CA7400F184D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		626E0DCB1CB6CA7400F184D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626E0DD61CB6D15000F184D1 /* shapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapes.png; sourceTree = "<group>"; };
+		626E0DD81CB6D1E200F184D1 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		626E0DDA1CB6D21E00F184D1 /* audio_max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_max.png; sourceTree = "<group>"; };
+		626E0DDB1CB6D21E00F184D1 /* audio_min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_min.png; sourceTree = "<group>"; };
+		626E0DDE1CB6D30400F184D1 /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
+		626E0DE11CB6D43E00F184D1 /* iPodClick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = iPodClick.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,10 @@
 		626E0DBE1CB6CA7400F184D1 /* reproductorMusica */ = {
 			isa = PBXGroup;
 			children = (
+				626E0DE01CB6D3CD00F184D1 /* effect */,
+				626E0DD31CB6CB3500F184D1 /* icon */,
+				626E0DD21CB6CAF000F184D1 /* cover */,
+				626E0DD11CB6CAE200F184D1 /* music */,
 				626E0DBF1CB6CA7400F184D1 /* AppDelegate.swift */,
 				626E0DC11CB6CA7400F184D1 /* ViewController.swift */,
 				626E0DC31CB6CA7400F184D1 /* Main.storyboard */,
@@ -62,6 +78,40 @@
 				626E0DCB1CB6CA7400F184D1 /* Info.plist */,
 			);
 			path = reproductorMusica;
+			sourceTree = "<group>";
+		};
+		626E0DD11CB6CAE200F184D1 /* music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
+		626E0DD21CB6CAF000F184D1 /* cover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cover;
+			sourceTree = "<group>";
+		};
+		626E0DD31CB6CB3500F184D1 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				626E0DDA1CB6D21E00F184D1 /* audio_max.png */,
+				626E0DDB1CB6D21E00F184D1 /* audio_min.png */,
+				626E0DD61CB6D15000F184D1 /* shapes.png */,
+				626E0DD81CB6D1E200F184D1 /* circle.png */,
+				626E0DDE1CB6D30400F184D1 /* arrows.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		626E0DE01CB6D3CD00F184D1 /* effect */ = {
+			isa = PBXGroup;
+			children = (
+				626E0DE11CB6D43E00F184D1 /* iPodClick.aiff */,
+			);
+			name = effect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +172,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626E0DE21CB6D43E00F184D1 /* iPodClick.aiff in Resources */,
 				626E0DCA1CB6CA7400F184D1 /* LaunchScreen.storyboard in Resources */,
+				626E0DD71CB6D15000F184D1 /* shapes.png in Resources */,
+				626E0DDD1CB6D21E00F184D1 /* audio_min.png in Resources */,
+				626E0DDF1CB6D30400F184D1 /* arrows.png in Resources */,
+				626E0DD91CB6D1E200F184D1 /* circle.png in Resources */,
+				626E0DDC1CB6D21E00F184D1 /* audio_max.png in Resources */,
 				626E0DC71CB6CA7400F184D1 /* Assets.xcassets in Resources */,
 				626E0DC51CB6CA7400F184D1 /* Main.storyboard in Resources */,
 			);
