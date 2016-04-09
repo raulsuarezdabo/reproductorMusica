@@ -64,5 +64,16 @@ class ViewController: UIViewController {
             player.currentTime = 0
         }
     }
+    
+    @IBAction func randomAction() {
+        let max = self.trackSelector.numberOfSegments
+        let random = randomInt(0, max: max-1)
+        self.trackSelector.selectedSegmentIndex = random
+        self.reloadViewAttributes()
+    }
+    
+    func randomInt(min: Int, max:Int) -> Int {
+        return min + Int(arc4random_uniform(UInt32(max - min + 1)))
+    }
 }
 

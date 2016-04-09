@@ -69,6 +69,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4B-0K-5xk">
                                 <rect key="frame" x="284" y="28" width="32" height="32"/>
                                 <state key="normal" image="arrows.png"/>
+                                <connections>
+                                    <action selector="randomAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="RdO-Wu-nXt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
