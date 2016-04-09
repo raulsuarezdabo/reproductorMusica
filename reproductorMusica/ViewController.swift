@@ -7,36 +7,62 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var coverImage: UIImageView!
     
-    @IBAction func musicSelector(sender: UISegmentedControl) {
-    }
+    private var player: AVAudioPlayer!
     
-    @IBAction func playAction() {
-    }
+    @IBOutlet weak var trackSelector: UISegmentedControl!
     
-    @IBAction func stopAction() {
-    }
+    let trackService: TrackService = TrackService()
     
-    @IBAction func randomAction() {
-    }
+    var selectedTrack: Track?
     
-    @IBAction func volumen(sender: UISlider) {
-    }
+    @IBOutlet var titleLabel: UITextField!
+    
+    @IBOutlet var coverImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.reloadViewAttributes()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func reloadViewAttributes() {
+        self.selectedTrack = self.trackService.getTrack(self.trackSelector.selectedSegmentIndex)
+        do {
+            try player = AVAudioPlayer(contentsOfURL: self.trackService.getResource(self.selectedTrack!))
+            self.titleLabel.text = self.selectedTrack!.getName()
+            self.coverImage.image = UIImage(named: self.trackService.getCover(self.selectedTrack!))
+        } catch {
+            print("Error al cargar el audio")
+        }
+    }
 
+    @IBAction func trackSelectorAction() {
+        self.reloadViewAttributes()
+    }
+    
+    @IBAction func playAction() {
+        if (player.playing) {
+            player.pause()
+        }
+        else {
+            player.play()
+        }
+    }
 
+    @IBAction func stopAction() {
+        if (player.playing) {
+            player.stop()
+            player.currentTime = 0
+        }
+    }
 }
 
