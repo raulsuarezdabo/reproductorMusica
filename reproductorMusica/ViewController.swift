@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var trackSelector: UISegmentedControl!
     
+    @IBOutlet weak var trackVolume: UISlider!
+    
     let trackService: TrackService = TrackService()
     
     var selectedTrack: Track?
@@ -74,6 +76,10 @@ class ViewController: UIViewController {
     
     func randomInt(min: Int, max:Int) -> Int {
         return min + Int(arc4random_uniform(UInt32(max - min + 1)))
+    }
+    
+    @IBAction func volumeAction() {
+        self.player.volume = self.trackVolume.value
     }
 }
 
