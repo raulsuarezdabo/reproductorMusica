@@ -42,6 +42,7 @@ class ViewController: UIViewController {
             try player = AVAudioPlayer(contentsOfURL: self.trackService.getResource(self.selectedTrack!))
             self.titleLabel.text = self.selectedTrack!.getName()
             self.coverImage.image = UIImage(named: self.trackService.getCover(self.selectedTrack!))
+            self.player.play()
         } catch {
             print("Error al cargar el audio")
         }
